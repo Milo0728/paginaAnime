@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+li, a, .login {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+}
+
+header h1 {
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+header h1:hover {
+    color: #E8C39E 
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block; /*Se acomoda horizontalmente*/
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.nav_links li a:hover {
+    color: #E8C39E ;
+}
+
+
+.login {
+    padding: 9px 25px;
+    background-color: #E8C39E ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.login:hover {
+    background-color: #b9a188 ;
+}
+
+/* CONTENIDO MAIN -- BIENVENIDA*/
+
+.contenido-pagina {
+    position: relative;
+}
+.contenido-bienvenida {
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 15px 6%;
+    text-align: center;
+    color: #E8C39E ;
+    
+}
+
+.contenido-bienvenida h1 {
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    padding: 0px 24%;
+}
+
+.contenido-bienvenida h1:hover {
+    color: #866d54;
+}
+/* CONTENIDO MAIN -- PRODUCOS*/
+
+.boton-agregar {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF58;
+    transition-duration: 0.4s;
+    margin-left: 35%;
+}
+
+.boton-agregar:hover {
+    background-color: #4CAF58;
+    color: white;
+}
+
+.boton-checkout {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid #E8C39E ;
+    transition-duration: 0.4s;
+}
+
+.boton-checkout:hover {
+    background-color: #E8C39E ;
+    color: black;
+}
+
+.contenido-tienda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenido-producto {
+    margin: 15px;
+    padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(232, 195, 158, 0.1);
+    background-color: white;
+}
+.contenido-producto:hover{
+    box-shadow: 0 8px 16px 0 rgba(232, 195, 158, 0.6);
+}
+
+.contenido-producto img {
+    width: 300px;
+    padding: 2px 16px;
+}
